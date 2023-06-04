@@ -12,7 +12,7 @@ const Education = () => {
     },
     {
       id: 2,
-      year: '2019-2023',
+      year: '2019-2022',
       title: 'Bsc Information Technology',
       university: 'Jorhat Institute of Science and Technology',
       from:'Jorhat, Assam',
