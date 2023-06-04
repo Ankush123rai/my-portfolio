@@ -1,0 +1,106 @@
+
+    
+.container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    padding: 0 2rem;
+    gap:5rem;
+}
+
+  form {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    border:3px solid #00abf0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+    input {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        padding: 1rem;
+        outline: none;
+        border-radius: 5px;
+        background-color: transparent;
+        border:1px solid #00abf0;
+        color: #fff;
+        margin-bottom: 1.3rem;
+    }
+      input:focus {
+        border: 2px solid #fff;
+      }
+    
+
+      textarea {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        max-height: 100px;
+        min-height: 100px;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #00abf0;
+        background-color: transparent;
+        color: #fff;
+      }
+  
+      textarea:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    
+
+    label {
+      margin-top: 1rem;
+      color: #fff;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #00abf0;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        margin-top: 2rem;
+        }
+        input[type="submit"]:hover {
+            background-color: rgba(0, 206, 158, 1);
+        }
+    .banner img{
+        width: 100%;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social_icons {
+        width: 200px;
+        margin: 1rem;
+        font-size: 2rem;
+        color: #fff;
+  
+        display: flex;
+        width: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      
+      }
+      
+      .social{
+          margin-top: 2.4rem;
+          display: flex;
+      }
+      .social_icons:hover{
+           color:#309dcc;
+          transition: .3s ease-in;
+      }
