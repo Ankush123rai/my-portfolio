@@ -4,7 +4,7 @@ import Home from './home/Home'
 import About from './about/About'
 import Navbar from './navbar/Navbar'
 import Education from './education/Education'
-import Project from './Project/Project'
+import Project from './project/Project'
 import Contact from './contact/Contact'
 
 const App = () => {
