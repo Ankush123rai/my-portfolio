@@ -47,16 +47,16 @@ body{
     color:#fff;
     margin-bottom: 1rem;
 }
-h3{
+.content h3{
    font-size: 2.4rem;
     font-weight: 700;
 }
-h1{
+.content h1{
     font-size: 4rem;
     font-weight: 700;
     padding: .5rem 0;
 }
-p{
+.content p{
     font-size: 1.2rem;
     font-weight: 400;
     margin-top: 1rem;
@@ -68,8 +68,9 @@ p{
     white-space: nowrap;
     font-size: 1.6rem;
     width: 0;
-    animation: typing 5s forwards;
+    animation: typing 5s infinite;
     color:#00abf0;
+    animation-delay: 1s;
 }
 
 .btn{
@@ -116,3 +117,85 @@ p{
     from { width: 0 }
     to { width: 100% }
   }
+
+   
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 0 3rem;
+      margin-top: 25rem;
+    }
+  
+    .left_side{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right_side {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+  
+    .right_side img {
+      width: 80%;
+      border-radius: 2rem;
+      margin-top: 2rem;
+    }
+  
+    .content h1{
+       font-size: 2rem;
+    }
+    .content h3{
+        font-size: 1rem;
+    }
+    .content p{
+        font-size: 1.2rem;
+    }
+    .btn{
+        display: flex;
+        gap: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+      padding: 0 3rem;
+      margin-top: 15rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .social_icons {
+      font-size: 1.5rem;
+      margin: 0.5rem;
+    }
+  
+    .btn button {
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+  }
+  .typed_out{
+    font-size: .4rem;
+}

@@ -40,11 +40,10 @@ const Education = () => {
               <p>{data.university}</p>
               <p>{data.from}</p>
               </div>
-            </div>
+            </div>                                                                
         ))}
         </div>
     </div>
   )
 }
-
 export default Education

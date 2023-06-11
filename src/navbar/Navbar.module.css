@@ -1,46 +1,106 @@
-
-
-body{
+body {
     background-color: #061520;
-    /* background-color: blue; */
     font-family: 'Poppins', sans-serif;
-}
-.container{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem 3rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
     background-color: #061520;
-   
-}
-.logo{
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
+    width: 100vw;
+  }
+  
+  .logo {
+    color: #00abf0;
+    font-size: 1.4rem;
+    font-weight: 700;
     text-transform: uppercase;
-}
-.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-.item{
+  }
+  
+  .item {
     list-style: none;
     margin: 1rem 1.5rem;
-    padding:.2rem .5rem;
+    padding: 0.2rem 0.5rem;
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
-    transition: all .3s ease-in-out;
-}
-.item:hover{
-    color:#00abf0;
-}
-.item a:active{
-    color:#00abf0;
-}
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .item:hover {
+    color: #00abf0;
+  }
+  
+  .item a:active {
+    color: #00abf0;
+  }
+  
+  .close_btn {
+    display: none;
+    color: #00abf0;
+    font-size: 1.3rem;
+  }
+  
+  .responsive {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .item {
+      display: none;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .close_btn {
+      display: block;
+      position: fixed;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+  
+    .responsive {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background:rgba(0,0,0,0.8);
+      position: fixed;
+      top: 3rem;
+      left: 0;
+      right: 0;
+      padding-top: 2rem;
+      z-index: 999;
+      width: 100%;
+    }
+  
+    .responsive .item {
+      display: block;
+      margin: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .responsive .item:hover {
+      color: #00abf0;
+    }
+  }
+  

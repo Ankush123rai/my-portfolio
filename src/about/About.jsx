@@ -74,7 +74,7 @@ const About = () => {
   ]
  
   return (
-    <>
+    <div className={style.about}>
       <div className={style.container}>
         <div className={style.top_heading}>
           <h2>ABOUT ME</h2>
@@ -145,7 +145,7 @@ const About = () => {
             ))}
           </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

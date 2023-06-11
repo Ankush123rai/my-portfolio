@@ -6,6 +6,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr'
+import Footer from "../footer/Footer";
+
+
 
 const Contact = () => {
   const form = useRef();
@@ -75,10 +78,11 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div className={style.container}>
 
     <div className={style.banner}>
-      <img src="https://assets.atlanticbt.com/content/uploads/2019/12/g_feature-web-development-3.svg" alt="" srcset="" />
+      <img src="https://assets.atlanticbt.com/content/uploads/2019/12/g_feature-web-development-3.svg" alt="" />
     </div>
      <div>
      <form ref={form} onSubmit={sendEmail}>
@@ -105,6 +109,8 @@ const Contact = () => {
       <ToastContainer />
      </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

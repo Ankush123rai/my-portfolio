@@ -23,7 +23,7 @@ const projectData = [
         tags: ['React', 'Javascript', 'CSS', 'Material-UI', 'Local-storage', ]
     },
     {
-        id: 2,
+        id: 3,
         title: 'Gym Website',
         description: 'A Gym website created with React.js with multiple pages with login register functionality alongwith proper validation.Features:- Sign in, Sign up, Home page, Aboutus, Program, Training, Pricing. Areas Of Responsibility :- Home page, Aboutus page, Training page, Program page, Pricing.',
         image: project3_1,

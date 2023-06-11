@@ -6,6 +6,8 @@ import Navbar from './navbar/Navbar'
 import Education from './education/Education'
 import Project from './project/Project'
 import Contact from './contact/Contact'
+import MySection from './dashboard/mySection'
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
         <Route path="/education" element={<Education/>}/>
         <Route path="/project" element={<Project/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/mySection" element={<MySection/>}/>
         <Route path="*" element={<Home/>}/>
       </Routes>
     </Router>
