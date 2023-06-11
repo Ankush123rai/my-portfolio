@@ -6,7 +6,7 @@ import Navbar from './navbar/Navbar'
 import Education from './education/Education'
 import Project from './project/Project'
 import Contact from './contact/Contact'
-import MySection from './dashboard/mySection'
+import MySection from './dashboard/MySection'
 
 
 const App = () => {
