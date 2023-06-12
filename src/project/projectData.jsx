@@ -9,7 +9,7 @@ const projectData = [
         description: 'A Kanban Board created with React with drag and drop functionality.Along with add, delete card and list.Features: Home page with add card and add list feature, Draggable and Droppable, Card details with activity log.',
         image: project2_1,
         github: "https://github.com/Ankush123rai/React-Kanban_Board",
-        live: "https://kanban-board-m1fe.onrender.com/",
+        live: "https://master--kanban-project4.netlify.app/",
         tags: ['React', 'Javascript', 'HTML', 'CSS', 'React-beautiful-dnd', 'Material-UI', 'uuid', 'Redux-toolkit']
     },
     {
