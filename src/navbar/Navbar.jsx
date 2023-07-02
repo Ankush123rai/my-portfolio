@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className={style.container}>
       <NavLink to='/' className={style.logo}>ankush rai</NavLink>
-    <div className={mobileView ? style.responsive:style.menu}>
+    <div className={mobileView ? style.responsive:style.menu} onClick={()=>setMobileView(false)}>
     <div className={style.nav}>
       <NavLink to='/' className={style.item}>HOME</NavLink>
       <NavLink to='/about' className={style.item}>ABOUT</NavLink>
